@@ -3,7 +3,7 @@
 **Talk:** Cloud & Containers: The Security Puzzle That Locks Tight  
 **Event:** BSides London – Rookies Track, December 2025  
 **Presenter:** Ashley Barker  
-(LinkedIn: [ashleyjbarker](https://www.linkedin.com/in/ashleyjbarker/) | X: [@ajb_42](https://x.com/ajb_42) | GitHub & Stack Exchange: ajb42)
+(LinkedIn: [ashleyjbarker](https://www.linkedin.com/in/ashleyjbarker/) | X: [@ajb_42](https://x.com/ajb_42) | GitHub & Stack Exchange: ajb42(https://infosec.exchange/@ajb42))
 
 ## Overview
 
