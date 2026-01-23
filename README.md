@@ -7,7 +7,7 @@
 
 ## Overview
 
-This is the one-page cheat sheet from my 13-minute talk at BSides London Rookies Track (Novotel London West, 13 December 2025).
+This is the one-page cheat sheet from my 15-minute talk at BSides London Rookies Track (13 December 2025).
 
 The framework is my own assembly, built from my thinking and opinions that are widely shared in the community. It was written and submitted before the second edition of Liz Rice's *Container Security* (November 2025) was published. While the core concerns (kernel risks, supply chain integrity, runtime containment) overlap in spirit with her first edition and with many of Kelsey Hightower's secure-by-default patterns, this approach is my own. It extends those ideas with a stronger focus on Zero Trust principles, cloud-native realities, measurable enterprise resilience (RTO, RPO, MTTR), and a unified defence graph that interconnects six layers: development standards, CI/CD pipelines, platform guardrails, runtime containment, visibility and response, and assurance and resilience.
 
