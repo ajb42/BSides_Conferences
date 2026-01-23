@@ -52,8 +52,9 @@ MIT License – feel free to use, modify and share (with attribution). See [LICE
 
 - LinkedIn: [ashleyjbarker](https://www.linkedin.com/in/ashleyjbarker/)  
 - X: [@ajb_42](https://x.com/ajb_42)  
-- GitHub & Stack Exchange: ajb42
+- GitHub: [ajb42](https://github.com/ajb42) 
+- infosec.exchange: [ajb42](https://infosec.exchange/@ajb42) )
 
-Feedback, questions or interest in bringing this talk to your team or event? Reach out on LinkedIn or X.
+Feedback, questions or interest in disussing any ideas further please reach out.
 
 Views expressed are my own and do not necessarily reflect those of my employer.
