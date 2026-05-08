@@ -1,60 +1,39 @@
-# Container Security Cheat Sheet
+# BSides Conferences
 
-**Talk:** Cloud & Containers: The Security Puzzle That Locks Tight  
-**Event:** BSides London – Rookies Track, December 2025  
-**Presenter:** Ashley Barker  
-(LinkedIn: [ashleyjbarker](https://www.linkedin.com/in/ashleyjbarker/) | X: [@ajb_42](https://x.com/ajb_42) | GitHub: [ajb42](https://github.com/ajb42) | infosec.exchange: [ajb42](https://infosec.exchange/@ajb42) )
+This folder contains all materials related to my BSides conference talks, including slide references, talk scripts, research notes, image prompts, and supporting documentation.
 
-## Overview
+Each sub-folder or set of files corresponds to a specific conference and talk. All views expressed in these materials are my own and do not reflect those of my employer.
 
-This is the one-page cheat sheet from my 15-minute talk at BSides London Rookies Track (13 December 2025).
+---
 
-The framework is my own assembly, built from my thinking and opinions that are widely shared in the community. It was written and submitted before the second edition of Liz Rice's *Container Security* (November 2025) was published. While the core concerns (kernel risks, supply chain integrity, runtime containment) overlap in spirit with her first edition and with many of Kelsey Hightower's secure-by-default patterns, this approach is my own. It extends those ideas with a stronger focus on Zero Trust principles, cloud-native realities, measurable enterprise resilience (RTO, RPO, MTTR), and a unified defence graph that interconnects six layers: development standards, CI/CD pipelines, platform guardrails, runtime containment, visibility and response, and assurance and resilience.
+## Talks
 
-The talk concludes with three immediate actions to move from fragmented tools to provable, interconnected defence.
 
-## Talk Summary
+### BSides Birmingham
+**Date:** 16/05/2026  
+**Talk Title:** Cloud & Containers: The Security Puzzle That Locks Tight  
+**Aim:** A technical deep-dive into the architectural considerations required to build a secure cloud and container platform — covering how supply chain trust, CI/CD controls, guardrails, runtime security, visibility, and assurance must interlock as a coherent system rather than a disconnected set of tools.
 
-Fragmentation is itself a vulnerability. With 82% of cloud breaches stemming from misconfiguration and human error (Exabeam 2025), point solutions leave dangerous gaps. This framework shifts from scattered tools to an interconnected defence graph, connecting:
 
-- Foundations (shared kernel illusion, non-negotiable bans)  
-- CI/CD (signed malware trap, SLSA L3+ plus VSA gates)  
-- Guardrails (default-deny networking, mTLS, policy-as-code)  
-- Runtime (eBPF behavioural detection, drift auto-kill)  
-- Visibility (OpenTelemetry correlation, baselines)  
-- Assurance (chaos engineering, RTO/RPO, non-repudiable proof)
+### BSides Exeter 2026
+**Date:** 25/04/2026  
+**Talk Title:** Cloud & Containers: The Security Puzzle That Locks Tight  
+**Aim:** A blue team and platform defence focused talk for SOC engineers and incident responders, exploring how security engineering decisions at the pipeline and cluster level generate actionable detection signals, and what good triage, investigation, and response looks like in containerised environments.
 
-It ends with three Monday actions:  
-1. Mandate trust (SLSA L3+ plus VSA plus revocation)  
-2. Enforce containment (ban root plus CAP_DROP plus default-deny)  
-3. Deploy visibility (eBPF baselines plus alerts cluster-wide)
 
-## Cheat Sheet
+### BSides London — Rookies Track
+**Date:** 13/12/2025  
+**Talk Title:** Cloud & Containers: The Security Puzzle That Locks Tight  
+**Track:** Rookies  
+**Aim:** An accessible introduction to cloud and container security, breaking down how the key layers of a secure platform fit together without assuming prior expertise in the space.
 
-High-resolution version:  
-[Container_Security_Cheat_Sheet.png](Container_Security_Cheat_Sheet.png)
+---
 
-Direct raw link:  
-https://raw.githubusercontent.com/ajb42/BSides_London_2025/main/Container_Security_Cheat_Sheet.png
+## About
 
-The sheet distils the complete framework:  
-- 7-layer model  
-- Core puzzle pieces  
-- Required baseline controls  
-- NIST 800-53 alignment  
-- Target state metrics (100% attestation coverage, 0% privileged pods, measured RTO/RPO)
+**Speaker:** Ashley Barker  
+**LinkedIn:** [linkedin.com/in/ashleyjbarker](https://www.linkedin.com/in/ashleyjbarker/)  
+**Substack:** [substack.com/@ajb042](https://substack.com/@ajb042)  
+**X / Twitter:** @ajb42
 
-## License
-
-MIT License – feel free to use, modify and share (with attribution). See [LICENSE](LICENSE) for the full text.
-
-## Connect
-
-- LinkedIn: [ashleyjbarker](https://www.linkedin.com/in/ashleyjbarker/)  
-- X: [@ajb_42](https://x.com/ajb_42)  
-- GitHub: [ajb42](https://github.com/ajb42) 
-- infosec.exchange: [ajb42](https://infosec.exchange/@ajb42) )
-
-Feedback, questions or interest in disussing any ideas further please reach out.
-
-Views expressed are my own and do not necessarily reflect those of my employer.
+> *Views expressed are my own and do not necessarily reflect those of my employer.*
